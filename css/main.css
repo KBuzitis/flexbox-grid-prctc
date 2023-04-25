@@ -97,30 +97,34 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: darkolivegreen;
   height: 100%;
+  width: 100%;
 }
 
 body {
+  color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
 }
 
 .wrapper {
+  align-items: center;
   display: flex;
+  flex-flow: row wrap;
   font-weight: 700;
   justify-content: space-between;
 }
 
 .div-1, .div-2, .div-3 {
   align-items: center;
-  background-color: #f16059;
   color: #fff;
   display: flex;
-  font-size: 1.6em;
-  height: 300px;
+  font-size: 1em;
+  height: auto;
   justify-content: center;
   line-height: 1.5em;
   width: 30%;
